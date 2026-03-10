@@ -12,7 +12,7 @@ function Card({preco, onSale, imagem}) {
         {preco === "R$ 00,00" ? "GRÁTIS" : preco}
       </p>
       
-      <small className="promo-text">{onSale ? 'Promoção!' : ""}</small>   
+      <p className="promo-text">{onSale ? 'Promoção!' : ""}</p>   
       
       <Like/>
     </section>    
