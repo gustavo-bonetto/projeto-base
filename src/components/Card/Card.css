@@ -1,0 +1,59 @@
+.autor-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autor-imagem {
+  width: 160px;
+  height: 170px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+
+.promo-text {
+  margin: 10px 0;
+  color: #16aa56;
+  font-weight: bold;
+  min-height: 20px;
+}
+
+.coracao {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.coracao:hover {
+  transform: scale(1.2);
+}
+
+.status-dot.onSale {
+  background-color: #16aa56;
+}
+.status-dot.notOnSale {
+  background-color: #888888;
+}
+.gratis {
+  font-size: 30px;
+ font-weight: bold;
+}
